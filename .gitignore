@@ -1,0 +1,19 @@
+# Android Build Artifacts & Caches
+**/build/
+**/.gradle/
+**/.cxx/
+**/out/
+
+# Local Configurations (Prevents breaking teammates' machines)
+**/local.properties
+
+# Security (Never upload signing keys)
+**/*.jks
+**/*.keystore
+**/keystore.properties
+
+# IDE Settings (VS Code & Android Studio)
+**/.idea/
+**/*.iml
+**/.vscode/
+**/*.code-workspace
