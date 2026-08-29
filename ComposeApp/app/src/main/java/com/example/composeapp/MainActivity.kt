@@ -1,24 +1,33 @@
 package com.example.composeapp
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
+// 1. Core Android (Intents, Bundles, Logs)
+import android.os.*
+import android.content.*
+import android.util.*
 
-// 1. Layout imports (Column, Row, Box, Spacer, Padding)
+// 2. Activity & Compose Setup
+import androidx.activity.*
+import androidx.activity.compose.*
+
+// 3. Compose Memory & State (remember, mutableStateOf)
+import androidx.compose.runtime.*
+
+// 4. Layouts & Structure (Column, Row, Box, Spacer, Arrangement)
+import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 
-// 2. UI Components (Text, Button, Icon, MaterialTheme)
+// 5. Core UI & Modifiers (Modifier, Alignment)
+import androidx.compose.ui.*
+import androidx.compose.ui.graphics.*
+import androidx.compose.ui.text.*
+import androidx.compose.ui.unit.*
+
+// 6. Material Design 3 (Text, Button, TextField, MaterialTheme, Colors)
 import androidx.compose.material3.*
 
-// 3. Built-in Icons (so you don't need to add image files manually yet)
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Build
-
-// 4. Core Compose imports
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
+// 7. Material Icons (If using built-in icons)
+import androidx.compose.material.icons.*
+import androidx.compose.material.icons.filled.*
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
