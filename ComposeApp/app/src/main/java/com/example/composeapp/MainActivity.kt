@@ -29,6 +29,15 @@ import androidx.compose.material3.*
 import androidx.compose.material.icons.*
 import androidx.compose.material.icons.filled.*
 
+import androidx.compose.ui.text.font.*
+
+import android.net.Uri
+import androidx.compose.ui.platform.LocalContext
+
+import android.content.ActivityNotFoundException
+import android.widget.Toast
+import android.provider.*
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
